@@ -1,0 +1,34 @@
+body {
+    background-color: #222222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 300xp;
+}
+
+.titulo-app{
+    padding: 30xp;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.text-center{
+    padding: 10xp;
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 350px;
+    color: white;
+}
+
+.button {
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#saida {
+    display: none;
+}

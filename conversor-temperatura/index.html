@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conversor de temperatura</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="text-center titulo-app">
+        <h1>Conversor de temperatura <span id="temp" class="fa"></span></h1>
+    </div>
+</div>
+<div class="input-area text-center">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="form-group">
+                <label for="temperatura-entrada" class="text-light">Temperatura em °C</label>
+                <input type="text" id="temperatura-entrada" class="form-control">
+                <!--<button name="button">verificar</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="saida">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card bd-primary mb-2">
+                <span id ="saida-kelvin"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card bd-primary mb-2">
+                <span id ="saida-fahrenheit"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card bd-primary mb-2">
+                <span id ="saida-rankine"></span>
+            </div>
+        </div>
+    
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
